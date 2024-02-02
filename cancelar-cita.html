@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedacDent - Cancelar Cita</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="icon" href="img/2.ico" type="image/x-icon">
+    <script src="/js/cancelar.js" defer></script>
+    <script src="/js/app.js" defer></script>
+</head>
+<body>
+    
+    <!-- Menú de inicio en la web -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="cita.html">Solicitar Cita</a></li>
+                <li><a href="consultar-cita.html">Consultar Cita</a></li>
+                <li><a href="modificar-cita.html">Modificar Cita</a></li>
+                <li><a href="cancelar-cita.html">Cancelar Cita</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <br>
+    <br>
+    
+    <div id="logo">
+        <img src="img/top.png" alt="Logo de MedacDent">
+    </div>
+
+    <div id="app">
+        <h1>Cancelar Cita:</h1>
+        <br><br><br><br>
+
+        <form id="cancelarCitaForm">
+            <label for="dni">Ingrese su DNI:</label><br>
+            <input type="text" id="dni" name="dni" placeholder="12345678A" maxlength="9" pattern="[0-9]{8}[A-Za-z]" required><br><br>
+
+            <button type="submit">Cancelar Cita</button>
+        </form>
+
+        <div id="mensaje">
+
+        </div>
+
+    </div>
+    
+    <br><br><br><br>
+
+    <footer>
+        <p> MedacDent &copy; 2024 </p>
+        <br>
+        <p>Puedes encontrarnos en c/programador junior Nº7 En Córdoba,España</p>
+        <br>
+        <p>Puedes Contactarnos en @MedacDent o MedacDentCórdoba@gmail.com </p>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,107 @@
+/* Reset de estilos y estilos generales */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+/*estilos de letra para todo el cuerpo de la paginas*/
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+/*estilos para el menu de las paginas*/
+header {
+    background-color: black;
+    color: white;
+    padding: 5px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background-color: #333; 
+    color: #fff; 
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#consulta {
+    background-color: #333; 
+    color: #fff; 
+    text-align: center;
+    position: relative;
+    margin-bottom: -120px;
+    bottom: 0;
+
+}
+
+/* estilos para el formulario*/
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: -2%;
+}
+
+h1 {
+    margin-top: -12%;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+
+button {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ff0000;
+}
+
+#app{
+    margin-top: 240px;
+}
+
+#Bienvenidos {
+    margin-top: 15%;
+}
+

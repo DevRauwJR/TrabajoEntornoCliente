@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedacDent - Control de Citas</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="icon" href="img/2.ico" type="image/x-icon">
+    <script src="/js/app.js"></script>
+</head>
+<body>
+    
+<!--menu de inicio en la web-->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="cita.html">Solicitar Cita</a></li>
+                <li><a href="consultar-cita.html">Consultar Cita</a></li>
+                <li><a href="modificar-cita.html">Modificar Cita</a></li>
+                <li><a href="cancelar-cita.html">Cancelar Cita</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <br>
+    <br>
+    
+<div id="logo">
+    <img src="img/top.png" alt="Logo de MedacDent">
+</div>
+
+
+    <div id="app">
+        <h1>Solicite Cita:</h1>
+        
+        <form id="citaForm">
+            <br>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre"  name="Paco"  placeholder="Paco" pattern="[A-Za-z\s]+" required>
+            <br>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" placeholder="Fernandez Fernandez" pattern="[A-Za-z\s]+" required>
+            <br>
+            <label for="dni">DNI:</label>
+            <input type="text" id="dni" name="dni" placeholder="12345678A" maxlength="9" pattern="[0-9]{8}[A-Za-z]" required>
+            <br>
+            <label for="fecha">Fecha Nacimiento:</label>
+            <input type="date" id="fechaNacimiento" required>
+            <br>
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="123456789" maxlength="9" pattern="[0-9]{9}" required>
+            <br>
+            <label for="observaciones">observaciones:</label>
+            <input type="textarea" id="observaciones" name="observaciones" placeholder="Explique el motivo de su cita..." required>
+            <br>
+            <label for="fecha">Fecha Cita:</label>
+            <input type="date" id="fechaCita" required>
+            <br>
+            <label for="hora">Hora de la cita:</label>
+            <input type="time" id="horaCita" name="hora" required>
+            <br>
+
+            <button type="submit">Pedir Cita</button>
+        </form>
+        <br>
+
+        <!-- de esta forma podemos mostrar las citas en esta misma pagina si así lo deseamos
+        <div id="citasList">
+            Aquí se mostrarán las citas añadidas 
+        </div>
+        -->
+    </div>
+
+
+    <footer>
+        <p> MedacDent &copy; 2024 </p>
+        <br>
+        <p>Puedes encontrarnos en c/programador junior Nº7 En Córdoba,España</p>
+        <br>
+        <p>Puedes Contactarnos en @MedacDent o MedacDentCórdoba@gmail.com </p>
+    </footer>
+    
+
+
+</body>
+</html>
